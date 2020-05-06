@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <title>Quiz</title>
+        <script type=text/javascript>
+            function function1(){
+                var str= document.getElementById("answer").value
+                if(str==10){
+                    alert("Right Answer");
+                }
+                else{
+                    alert("Wrong Answer");
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <center>
+        <font align=left size=50px>Question No:-1</font>
+        <br>
+        <img src="123456789.JPG" width=500px>
+        <br><br>
+        <font size=50px>Enter your Answer</font>
+        <br><br>
+        <input id="answer" type=number maxlength=2 name=answer placeholder="Enter Your Answer"><br><br>
+        <button onclick="function1()">Submit</button>
+    </body>
+</html>
